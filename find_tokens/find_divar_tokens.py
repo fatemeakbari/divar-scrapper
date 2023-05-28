@@ -8,7 +8,7 @@ URL = 'https://api.divar.ir/v8/search/1/apartment-sell'
 HEADERS = {
     "Content-Type": "application/json"
 }
-NUM_OF_SCRAPPING_VACANCIES = 1
+NUM_OF_SCRAPPING_VACANCIES = 10
 current_date = datetime.datetime.now()
 last_post_date_ = int(current_date.strftime("%Y%m%d%H%M%S") + '00')
 
